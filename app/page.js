@@ -1,6 +1,8 @@
-'use client';
+'use clien';
 import { useState } from 'react';
-import { useRouter } from 'nextnavigation';
+import { useRouter } from 'next/navigation';
+import VideoPlayer from '@/components/VideoPlayer';
+import VideoGrid from '@/components/VideoGrid';
 
 export default function HomePage() {
   const [email, setEmail] = useState('');
