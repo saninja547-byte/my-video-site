@@ -1,8 +1,8 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import VideoPlayer from '@/components/VideoPlayer';
-import VideoGrid from '@/components/VideoGrid';
+import VideoPlayer from '../../components/VideoPlayer';
+import VideoGrid from '../../components/VideoGrid';
 
 export default function DashboardPage() {
   const router = useRouter();
